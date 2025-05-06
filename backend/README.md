@@ -1,5 +1,7 @@
 # RouteCraft Backend
 
+[![Backend Tests](https://github.com/Asiantown/routecraft/actions/workflows/backend.yml/badge.svg)](https://github.com/Asiantown/routecraft/actions/workflows/backend.yml)
+
 - FastAPI 0.111
 - Hardcoded Houston 3x3 matrix for MVP
 - /optimize endpoint (see data contract)
