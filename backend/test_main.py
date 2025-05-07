@@ -15,5 +15,5 @@ def test_optimize():
     assert resp.status_code == 200
     data = resp.json()
     assert set(data["order"]) == {0,1,2}
-    assert data["total_minutes"] == 999  # intentionally fail
+    assert data["total_minutes"] == 34
     assert data["return_to_start"] is True
